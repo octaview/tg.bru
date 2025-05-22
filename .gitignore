@@ -1,0 +1,18 @@
+# Вместо .dockerignore/.containerignore
+# линковать на этот файл.
+
+# php
+vendor
+composer.lock
+.env
+*.zip
+
+#ChatGpt:
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+.terraform/
+*.tfplan
+terraform.tfvars
+*.tfvars
+*.tfvars.json
